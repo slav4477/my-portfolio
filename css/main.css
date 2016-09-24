@@ -1,0 +1,110 @@
+/* Main CSS
+======================*/
+
+body {
+  background-color: #F0F8FF;
+}
+
+/* About Page
+======================*/
+
+.about-main {
+  height: 240px;
+  background: linear-gradient(#F0F8FF, transparent 20%),
+              linear-gradient(0deg, #F0F8FF, transparent 20%),
+              #F0F8FF url('../img/puzzle.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.about-main h2{
+  font-size: 4em;
+  padding-top: 40px;
+  float: right;
+}
+
+.about-content {
+  text-align: center;
+}
+
+.about-content>p {
+  width: 700px;
+  padding: 5px;
+  border: 0px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.profile-photo {
+  border-radius: 25px;
+  width: 150px;
+  height: 150px;
+  padding:10px 10px 5px;
+  margin: 10px 10px 0;
+}
+
+/* Portfolio Page
+======================*/
+
+.portfolio-main {
+  height: 260px;
+  background: linear-gradient(#F0F8FF, transparent 20%),
+              linear-gradient(0deg, #F0F8FF, transparent 20%),
+              #F0F8FF url('../img/code.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.portfolio-main h2{
+  font-size: 4em;
+  padding-top: 30px;
+  float: right;
+}
+
+.preportfolio {
+  text-align: center;
+}
+
+.preportfolio ol {
+  list-style-position: inside;
+}
+
+.portfolio-item {
+  width: 49%;
+  height: 200px;
+  float: feft;
+  display: inline-block;
+  position: float;
+  padding: 5px;
+  border: 1px solid #000;
+  margin: .4%;
+}
+
+.folio-item-img img{
+  width: 300px;
+  height: 190px;
+  margin: 0 10px 0 0;
+}
+
+/* Contact Page
+======================*/
+
+.contact-main {
+  height: 300px;
+  background: linear-gradient(#F0F8FF, transparent 20%),
+              linear-gradient(0deg, #F0F8FF,transparent 20%),
+              #F0F8FF url('../img/message-in-a-bottle.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.contact-main h2{
+  font-size: 4em;
+}
+
+.contact-list {
+  list-style-type: none;
+}
+
+.glyphicon {
+  padding-right: 10px;
+  font-size: 1.25em;
+  color: #404040;
+}
